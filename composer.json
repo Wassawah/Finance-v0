@@ -1,0 +1,16 @@
+{
+    "name": "skabar/invoice",
+    "description": "Knjiznica PHP",
+    "authors": [
+        {
+            "name": "skabar",
+            "email": "andraz.skabar@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {"Api\\": "src/"}
+    }
+}
